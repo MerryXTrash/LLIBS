@@ -1011,7 +1011,7 @@ do
         });
     end;
 
-    function Funcs:AddLabel(Text, DoesWrap)
+    function Funcs:AddLabel(Text, Mid)
         local Label = {};
 
         local Groupbox = self;
